@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: poppins;
+}
+
+.main-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.main-header h3:hover{
+    text-shadow: 1px 1px 2px #fff, 0 0 4em #fff, 0 0 0.7em #fff;
+}
+
+.logo{
+    width: 90px;
+    height: 70px;
+    display: flex;
+    margin: auto;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    margin-top: 400px;
+}
+
+footer ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin:  0px 30px;
+}
+
+footer #logo{
+    height: 75px;
+    width: 95px;
+    display: flex;
+    margin: auto;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer h3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer img{
+    height: 45px;
+    width: 45px;
+    margin: 0px 15px;
+}
+
+footer .img{
+    border-bottom: 1px solid white;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    margin: auto;
+    padding-left: 0px;
+}
+
+footer p{
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+}
